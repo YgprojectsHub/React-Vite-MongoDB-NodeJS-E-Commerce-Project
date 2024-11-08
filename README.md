@@ -1,5 +1,5 @@
 Bu projede arayüz tasarımı için *React* ve *Ant Design*, sunucu için ise *MongoDB* ve *NodeJS* kullandım. 
-Sunucu tarafına limiter gibi basit güvenlik önlemlerini aldım.
+Sunucu tarafında limiter gibi basit güvenlik önlemlerini aldım.
 Ödeme sistemini 3. parti yazılım olarak **Stripe** ile yaptım.
 
 Bu projeyi 3 versiyon olarak yapmayı düşünüyorum;
