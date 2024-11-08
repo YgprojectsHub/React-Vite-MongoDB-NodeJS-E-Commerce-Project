@@ -1,0 +1,34 @@
+.section-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 0.8;
+  margin-bottom: 4px;
+}
+
+/* Blog Page */
+
+.blog-page {
+  margin-top: 40px;
+}
+
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.discount-badge {
+  width: 75%;
+  font-size: 0.7rem;
+  color: #e61a0b;
+  background-color: #ffe6e6;
+  padding: 5px 0px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+}

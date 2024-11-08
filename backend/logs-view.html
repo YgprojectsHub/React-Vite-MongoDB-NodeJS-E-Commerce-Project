@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hata Görüntüleme Sayfası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .error-section {
+            margin: 20px 0;
+        }
+
+        .error-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .error-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .error-list li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .error-list li:hover {
+            background: #f0f0f0;
+        }
+
+        .pagination, .refresh-button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pagination button, .refresh-button {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .pagination button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            width: 80%;
+            max-width: 600px;
+            height: auto;
+        }
+
+        .popup .close-btn {
+            background: #d9534f;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            float: right;
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Hata Görüntüleme Sayfası</h1>
+
+<div class="refresh-button-container">
+    <button class="refresh-button" onclick="loadErrors()">Yenile</button>
+</div>
+
+<div class="error-section">
+    <h2 class="error-title">Bağlantı Hataları</h2>
+    <ul id="connect-errors" class="error-list"></ul>
+    <div id="connect-pagination" class="pagination"></div>
+</div>
+
+<div class="error-section">
+    <h2 class="error-title">İstek Hataları</h2>
+    <ul id="request-errors" class="error-list"></ul>
+    <div id="request-pagination" class="pagination"></div>
+</div>
+
+<!-- Popup -->
+<div id="popup" class="popup">
+    <button class="close-btn" onclick="closePopup()">Kapat</button>
+    <div id="popup-content"></div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+<script>
+    const errorsPerPage = 5;  // Sayfa başına gösterilecek hata sayısı
+
+    document.addEventListener('DOMContentLoaded', loadErrors);
+
+    function loadErrors() {
+        // Bağlantı hatalarını yükle
+        fetch('./logs/connect-error-log.json')
+            .then(response => response.json())
+            .then(data => {
+                paginateErrors(data, 'connect-errors', 'connect-pagination');
+            })
+            .catch(err => console.error('Bağlantı hataları yüklenemedi:', err));
+
+        // İstek hatalarını yükle
+        fetch('./logs/http-error-log.json')
+            .then(response => response.json())
+            .then(data => {
+                paginateErrors(data, 'request-errors', 'request-pagination');
+            })
+            .catch(err => console.error('İstek hataları yüklenemedi:', err));
+    }
+
+    function paginateErrors(errors, listId, paginationId) {
+        const listElement = document.getElementById(listId);
+        const paginationElement = document.getElementById(paginationId);
+        let currentPage = 1;
+        const totalPages = Math.ceil(errors.length / errorsPerPage);
+
+        function renderPage(page) {
+            listElement.innerHTML = '';
+            const start = (page - 1) * errorsPerPage;
+            const end = page * errorsPerPage;
+            const errorsToShow = errors.slice(start, end);
+
+            errorsToShow.forEach((error, index) => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${index + start + 1}: ${error.error.message}`;
+                listItem.addEventListener('click', () => {
+                    showPopup(error);
+                });
+                listElement.appendChild(listItem);
+            });
+
+            renderPagination(page);
+        }
+
+        function renderPagination(page) {
+            paginationElement.innerHTML = '';
+
+            const prevButton = document.createElement('button');
+            prevButton.textContent = 'Önceki';
+            prevButton.disabled = page === 1;
+            prevButton.addEventListener('click', () => {
+                currentPage--;
+                renderPage(currentPage);
+            });
+            paginationElement.appendChild(prevButton);
+
+            const nextButton = document.createElement('button');
+            nextButton.textContent = 'Sonraki';
+            nextButton.disabled = page === totalPages;
+            nextButton.addEventListener('click', () => {
+                currentPage++;
+                renderPage(currentPage);
+            });
+            paginationElement.appendChild(nextButton);
+        }
+
+        renderPage(currentPage);
+    }
+
+    // Popup'ı göster
+    function showPopup(error) {
+        const popupContent = document.getElementById('popup-content');
+        popupContent.innerHTML = `
+            <p><strong>Base:</strong> ${error.base}</p>
+            <p><strong>Method:</strong> ${error.method || 'N/A'}</p>
+            <p><strong>Message:</strong> ${error.error.message}</p>
+            <pre><strong>Stack:</strong> ${error.error.stack}</pre>
+        `;
+
+        document.getElementById('popup').style.display = 'block';
+        document.getElementById('overlay').style.display = 'block';
+    }
+
+    // Popup'ı kapat
+    function closePopup() {
+        document.getElementById('popup').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>

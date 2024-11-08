@@ -1,0 +1,3778 @@
+[
+  {
+    "timestamp": "2024-08-25T17:39:43.826Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "bad auth : authentication failed",
+      "stack": "MongoServerError: bad auth : authentication failed\n    at Connection.sendCommand (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connection.js:297:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connection.js:325:26)\n    at async continueScramConversation (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:131:15)\n    at async executeScram (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:80:5)\n    at async ScramSHA1.auth (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:39:16)\n    at async performInitialHandshake (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connect.js:101:13)\n    at async connect (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connect.js:19:9)"
+    }
+  },
+  {
+    "timestamp": "2024-08-25T17:39:47.114Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "bad auth : authentication failed",
+      "stack": "MongoServerError: bad auth : authentication failed\n    at Connection.sendCommand (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connection.js:297:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connection.js:325:26)\n    at async continueScramConversation (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:131:15)\n    at async executeScram (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:80:5)\n    at async ScramSHA1.auth (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:39:16)\n    at async performInitialHandshake (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connect.js:101:13)\n    at async connect (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connect.js:19:9)"
+    }
+  },
+  {
+    "timestamp": "2024-08-25T17:39:50.395Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "bad auth : authentication failed",
+      "stack": "MongoServerError: bad auth : authentication failed\n    at Connection.sendCommand (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connection.js:297:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connection.js:325:26)\n    at async continueScramConversation (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:131:15)\n    at async executeScram (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:80:5)\n    at async ScramSHA1.auth (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:39:16)\n    at async performInitialHandshake (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connect.js:101:13)\n    at async connect (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongodb\\lib\\cmap\\connect.js:19:9)"
+    }
+  },
+  {
+    "timestamp": "2024-09-21T10:47:00.061Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+      "stack": "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at async connect (file:///C:/Users/hilal/Documents/React-ecommerce/backend/database/connect.js:18:5)"
+    }
+  },
+  {
+    "timestamp": "2024-09-21T10:47:34.256Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+      "stack": "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at async connect (file:///C:/Users/hilal/Documents/React-ecommerce/backend/database/connect.js:18:5)"
+    }
+  },
+  {
+    "timestamp": "2024-09-21T10:48:07.791Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+      "stack": "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at async connect (file:///C:/Users/hilal/Documents/React-ecommerce/backend/database/connect.js:18:5)"
+    }
+  },
+  {
+    "timestamp": "2024-09-21T10:48:43.590Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+      "stack": "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at process.processTimers (node:internal/timers:511:9)\n    at async connect (file:///C:/Users/hilal/Documents/React-ecommerce/backend/database/connect.js:18:5)"
+    }
+  },
+  {
+    "timestamp": "2024-09-21T10:49:17.181Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+      "stack": "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at async connect (file:///C:/Users/hilal/Documents/React-ecommerce/backend/database/connect.js:18:5)"
+    }
+  },
+  {
+    "timestamp": "2024-09-21T10:49:51.251Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+      "stack": "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at async connect (file:///C:/Users/hilal/Documents/React-ecommerce/backend/database/connect.js:18:5)"
+    }
+  },
+  {
+    "timestamp": "2024-09-21T10:50:24.926Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+      "stack": "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at async connect (file:///C:/Users/hilal/Documents/React-ecommerce/backend/database/connect.js:18:5)"
+    }
+  },
+  {
+    "timestamp": "2024-09-21T10:51:20.542Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+      "stack": "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at async connect (file:///C:/Users/hilal/Documents/React-ecommerce/backend/database/connect.js:18:5)"
+    }
+  },
+  {
+    "timestamp": "2024-09-21T10:51:54.985Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+      "stack": "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at async connect (file:///C:/Users/hilal/Documents/React-ecommerce/backend/database/connect.js:18:5)"
+    }
+  },
+  {
+    "timestamp": "2024-09-21T10:52:28.142Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+      "stack": "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\hilal\\Documents\\React-ecommerce\\backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at async connect (file:///C:/Users/hilal/Documents/React-ecommerce/backend/database/connect.js:18:5)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:34:49.275Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:35:04.840Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:35:26.075Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:35:31.918Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:35:37.133Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:35:45.184Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:35:50.045Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:35:54.626Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:35:59.368Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:36:08.163Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:36:13.966Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:36:19.266Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:36:21.877Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:36:29.626Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:36:38.694Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:36:45.951Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:36:51.904Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:36:57.064Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:02.147Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:07.182Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:12.148Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:17.098Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:22.051Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:26.952Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:31.683Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:36.441Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:41.431Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:46.080Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:51.056Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:37:55.848Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:38:00.899Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:38:06.279Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:38:11.741Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:38:16.975Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:38:21.935Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:38:26.951Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:38:31.869Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:38:36.776Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:38:44.792Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:38:49.823Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:38:55.566Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:39:00.452Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:39:05.469Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:39:10.201Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:39:14.961Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:39:20.051Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:39:24.969Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:39:29.901Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:39:34.940Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:39:39.915Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:39:44.876Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:13.716Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:16.140Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:18.571Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:20.993Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:23.449Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:25.841Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:28.247Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:30.619Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:33.010Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:35.341Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:37.774Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:40.125Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:42.469Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:44.748Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:47.128Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:49.563Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:51.986Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:54.337Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:56.680Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:40:59.058Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:01.425Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:03.800Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:06.224Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:08.652Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:11.120Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:13.473Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:15.781Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:18.126Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:20.594Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:22.952Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:25.278Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:27.686Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:30.027Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:32.427Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:34.787Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:37.291Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:40.243Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:42.751Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:45.545Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:47.881Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:50.235Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:52.654Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:55.042Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:57.451Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:41:59.803Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:02.267Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:04.587Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:07.081Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:09.445Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:11.815Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:14.155Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:16.545Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:18.939Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:21.319Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:23.729Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:26.062Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:28.427Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:30.816Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:33.250Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:35.593Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:37.996Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:40.326Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:42.744Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:45.121Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:47.520Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:49.838Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:52.211Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:54.585Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:56.941Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:42:59.339Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:01.778Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:04.262Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:06.593Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:08.892Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:11.263Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:13.662Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:16.036Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:18.449Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:20.834Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:23.233Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:25.558Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:27.903Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:31.961Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:35.621Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:38.851Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:41.564Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:44.224Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:46.766Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:49.372Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:51.996Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:54.554Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:57.196Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:43:59.804Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:02.463Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:04.957Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:07.490Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:10.078Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:12.545Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:15.116Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:17.544Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:19.912Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:22.286Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:24.650Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:27.125Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:29.510Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:31.877Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:34.223Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:36.590Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:39.008Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:41.356Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:43.779Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:46.091Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:48.528Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:50.902Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:53.280Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:55.644Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:44:58.070Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:00.460Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:02.863Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:05.224Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:07.603Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:09.989Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:12.453Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:14.820Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:17.201Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:19.536Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:21.843Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:24.222Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:26.577Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:28.883Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:31.184Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:33.530Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:35.868Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:38.360Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:40.726Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:43.109Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:45.489Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:47.866Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:50.211Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:52.570Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:54.885Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:57.240Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:45:59.601Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:01.941Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:04.312Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:06.644Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:09.027Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:11.539Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:13.948Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:16.353Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:18.763Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:21.134Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:23.486Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:25.829Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:28.198Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:30.596Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:32.974Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:35.504Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:37.913Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:40.274Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:42.639Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:45.031Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:47.471Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:49.798Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:52.225Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:54.590Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:56.951Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:46:59.310Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:01.664Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:04.106Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:06.411Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:08.794Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:11.133Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:13.497Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:15.839Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:18.251Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:20.689Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:23.081Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:25.439Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:27.821Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:30.162Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:32.576Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:34.957Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:37.353Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:39.729Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:42.112Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:44.514Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:46.884Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:49.287Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:51.610Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:53.979Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:56.286Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:47:58.664Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:01.001Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:03.349Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:05.699Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:08.033Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:10.375Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:12.723Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:15.115Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:17.531Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:19.850Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:22.268Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:24.704Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:27.209Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:29.667Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:32.081Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:34.442Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:36.841Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:39.208Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:41.538Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:43.892Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:46.223Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:48.619Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:50.982Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:53.353Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:55.699Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:48:58.049Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:00.429Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:02.774Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:05.109Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:07.458Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:09.887Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:12.402Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:14.844Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:17.265Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:19.518Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:21.797Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:24.057Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:26.346Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:28.668Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:31.263Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:33.897Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:36.284Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:38.704Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:41.104Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:43.583Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:46.030Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:48.418Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:50.831Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:53.259Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:55.723Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:49:58.196Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:00.696Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:03.099Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:05.523Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:07.971Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:10.381Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:12.828Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:15.232Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:17.563Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:19.930Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:22.250Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:24.554Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:26.898Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:29.195Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:31.527Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:33.914Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:36.285Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:38.826Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:41.298Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:43.613Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:45.974Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:48.300Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:50.680Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:53.018Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:55.348Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:50:57.665Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:00.080Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:02.386Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:04.742Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:07.084Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:09.417Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:11.847Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:14.197Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:16.617Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:19.079Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:21.545Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:23.952Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:26.410Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:28.824Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:31.038Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:33.265Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:35.482Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:37.720Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:39.933Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:42.176Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:44.628Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:47.069Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:49.319Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:51.561Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:53.835Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:56.065Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:51:58.317Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:00.624Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:02.894Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:05.187Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:07.410Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:09.653Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:11.906Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:14.160Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:16.401Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:18.620Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:20.894Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:23.118Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:25.381Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:27.648Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:29.924Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:32.223Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:34.510Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:36.735Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:38.957Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:41.198Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:43.439Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:45.659Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:47.931Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:50.377Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:52.784Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:55.014Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:57.180Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:52:59.385Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:01.629Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:03.859Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:06.145Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:08.384Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:10.674Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:12.919Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:15.197Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:17.460Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:19.697Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:21.932Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:24.181Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:26.380Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:28.636Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:30.859Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:33.146Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:35.360Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:37.548Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:39.781Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:41.993Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:44.292Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:53:46.503Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:54:12.489Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:54:37.878Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:55:04.169Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:55:31.544Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:56:03.907Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:56:28.362Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:56:53.676Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:57:20.028Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:57:43.337Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:58:09.779Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:58:38.113Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:59:03.450Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T06:59:34.002Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:00:02.243Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:00:33.532Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:01:03.780Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:07.184Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:12.107Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:16.494Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:21.093Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:25.734Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:30.351Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:34.848Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:39.076Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:43.655Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:48.025Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:53.240Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:11:57.886Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:02.449Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:07.540Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:11.838Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:16.198Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:21.230Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:25.945Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:30.795Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:36.323Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:41.477Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:46.592Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:51.654Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:12:56.957Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:01.754Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:06.427Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:11.435Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:16.352Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:21.307Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:26.599Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:31.183Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:35.917Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:40.514Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:44.999Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:49.649Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:54.143Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:13:58.876Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:03.980Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:08.875Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:14.157Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:18.798Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:23.690Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:28.275Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:33.445Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:38.677Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:43.454Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:48.566Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:53.573Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:14:58.358Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  },
+  {
+    "timestamp": "2024-09-30T07:15:04.327Z",
+    "base": "CONNECT",
+    "error": {
+      "message": "querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net",
+      "stack": "Error: querySrv EREFUSED _mongodb._tcp.cluster0.hhehb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)"
+    }
+  }
+]

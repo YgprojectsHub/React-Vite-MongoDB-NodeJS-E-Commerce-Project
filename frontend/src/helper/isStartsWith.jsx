@@ -1,0 +1,1 @@
+export const isStartsWith = (path) => window.location.pathname.startsWith(path)

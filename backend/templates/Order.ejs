@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 600px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header, .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+        .message {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Sayın <%= username %>(<%= email %>),</h2>
+        </div>
+        
+        <div class="message">
+            <% if (statusCode==100) { %>
+            <p><%= orderCode %> kodlu siparişiniz üreticiye bildirilmiştir. İyi günler diler, bizi tercih ettiğiniz için teşekkür ederiz.</p>
+
+            <% } else if (statusCode==101) { %>
+                <p><%= orderCode %> kodlu siparişiniz kargoya verilmiştir. İyi günler dileriz.</p>
+
+            <% } else if (statusCode==102) { %>
+                <p><%= orderCode %> kodlu siparişiniz teslim edilmiştir. İyi günler dileriz.</p>
+
+            <% } else if (statusCode==200) { %>
+                <p><%= orderCode %> kodlu siparişiniz iptal edilmiştir, 5 ile 7 iş günü içerisinde ücret iadesi yapılacaktır. İyi günler dileriz.</p>
+
+            <% } else if (statusCode==201) { %>
+                <p><%= orderCode %> kodlu siparişiniz için iade talebi üreticiye ulaştırılmıştır. İyi günler dileriz.</p>
+
+            <% } else if (statusCode==202) { %>
+                <p><%= orderCode %> kodlu siparişiniz iade edilmiştir, 5 ile 7 iş günü içerisinde ücret iadesi yapılacaktır. İyi günler dileriz.</p>
+            <% } %>
+
+            <p>Lütfen sipariş detayları için bu linke <a href="http://localhost:5173/p/account/order/<%= seoLink %>">tıklayınız</a>.</p> 
+        </div>
+
+        <div class="footer">
+            Eğer bu işlemi siz talep etmediyseniz, lütfen bu e-postayı dikkate almayın.
+        </div>
+    </div>
+</body>
+</html>
